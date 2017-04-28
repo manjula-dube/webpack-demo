@@ -8,16 +8,6 @@ module.exports = function(env) {
             filename: '[hash].bundle.js',
             path: './dist'
         },
-        // module: {
-        //     rules : [{
-        //         test: /.js$/,
-        //         loader: 'babel-loader',
-        //         query: {
-        //             "presets": ["es2015"]
-        //         },
-        //         exclude: /node_modules/ 
-        //     }]
-        // },
         devtool: 'source-map',
         context: path.resolve(__dirname),
         plugins: [

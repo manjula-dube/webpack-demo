@@ -4,7 +4,7 @@
   "description": "Using webpack for a basic setup",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm start"
   },
   "author": "manjula dube",
   "license": "ISC",
